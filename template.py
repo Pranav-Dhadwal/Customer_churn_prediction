@@ -17,7 +17,7 @@ logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(message)s")
 # == File manifest == 
 # Directories and new files will be created automatically if not present
 
-PROJECT_NAME = "Churn_predic"
+PROJECT_NAME = "Customer_churn"
 
 files = [
     # Package init files
