@@ -1,0 +1,9 @@
+from customer_churn.components.data_ingestion import DataIngestion
+
+
+if __name__ == "__main__":
+    obj = DataIngestion()
+
+    train_path, test_path = obj.initiate_data_ingestion()
+
+    print(train_path, test_path)
