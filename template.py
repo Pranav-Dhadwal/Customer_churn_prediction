@@ -33,6 +33,7 @@ files = [
 
     # Pipeline components
     f"src/{PROJECT_NAME}/components/data_ingestion.py",
+    f"src/{PROJECT_NAME}/components/data_validation.py",
     f"src/{PROJECT_NAME}/components/data_transformation.py",
     f"src/{PROJECT_NAME}/components/model_trainer.py",
     f"src/{PROJECT_NAME}/components/model_monitoring.py",
